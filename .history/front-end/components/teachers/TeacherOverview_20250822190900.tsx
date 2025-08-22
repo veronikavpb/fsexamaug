@@ -25,13 +25,13 @@ const TeacherOverview: React.FC<Props> = ({ teachers }: Props) => {
                 scope="col"
                 className="border border-gray-300 px-4 py-2 text-left"
               >
-                {t("teachers.table.name")}
+                Name
               </th>
               <th
                 scope="col"
                 className="border border-gray-300 px-4 py-2 text-left"
               >
-                {t("teachers.table.learningPath")}
+                Learning path
               </th>
             </tr>
           </thead>

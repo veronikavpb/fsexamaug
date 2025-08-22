@@ -34,7 +34,7 @@ const Header: React.FC = () => {
           href="/teachers"
           className="px-4 text-xl text-white hover:bg-gray-600 rounded-lg"
         >
-          {t("header.nav.teachers")}
+          Teachers
         </Link>
 
         {!loggedInUser && (

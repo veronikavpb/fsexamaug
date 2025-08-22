@@ -11,13 +11,6 @@
       "logout": "Cerrar sesión"
     }
   },
-  "teachers": {
-    "title": "Profesores",
-    "table": {
-      "name": "Nombre",
-      "learningPath": "Ruta de aprendizaje"
-    }
-  },
   "login": {
     "title": "Inicio de sesión",
     "button": "Conéctese",

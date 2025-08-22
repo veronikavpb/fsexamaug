@@ -12,15 +12,6 @@
       "logout": "Logout"
     }
   },
-
-  "teachers": {
-    "title": "Teachers",
-    "table": {
-      "name": "Name",
-      "learningPath": "Learning path"
-    }
-  },
-
   "login": {
     "title": "Login",
     "button": "Login",
