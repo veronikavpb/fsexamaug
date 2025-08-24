@@ -16,16 +16,5 @@ export type User = {
 
 export type StatusMessage = {
   message: string;
-  type: "error" | "success";
-};
-
-export type Classroom = {
-  id: number;
-  name: string;
-  createdAt?: Date;
-  updatedAt?: Date;
-};
-
-export type ClassroomInput = {
-  name: string;
+  type: 'error' | 'success';
 };
