@@ -6,7 +6,6 @@ import swaggerJSDoc from 'swagger-jsdoc';
 import swaggerUi from 'swagger-ui-express';
 import { expressjwt } from 'express-jwt';
 import { userRouter } from './controller/user.routes';
-import { classroomRouter } from './controller/classroom.routes';
 import helmet from 'helmet';
 import { teacherRouter } from './controller/teacher.routes';
 
@@ -39,7 +38,6 @@ app.use(
 
 app.use('/teachers', teacherRouter);
 app.use('/users', userRouter);
-app.use('/classrooms', classroomRouter);
 
 app.get('/status', (req, res) => {
     res.json({ message: 'Exam API is running...' });

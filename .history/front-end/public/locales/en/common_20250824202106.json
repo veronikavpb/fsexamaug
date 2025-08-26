@@ -34,8 +34,10 @@
   "home": {
     "title": "Good luck with the exam!",
     "description": ""
-  },
+  }
+}
 
+{
   "classroom": {
     "title": "Add Classroom",
     "form": {
@@ -51,7 +53,6 @@
       }
     }
   },
-
   "errors": {
     "unauthorized": "Access denied. Admin privileges required."
   }
