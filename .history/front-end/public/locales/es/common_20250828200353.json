@@ -5,9 +5,9 @@
     "welcome": "Bienvenido",
     "nav": {
       "home": "Inicio",
-      "teachers": "Profesores",
+      "teachers": "Entrenadores",
       "add-classroom": "Agregar Aula",
-      "login": "Iniciar sesión",
+      "login": "Conéctese",
       "logout": "Cerrar sesión"
     }
   },
@@ -20,7 +20,7 @@
   },
   "login": {
     "title": "Inicio de sesión",
-    "button": "Iniciar sesión",
+    "button": "Conéctese",
     "success": "Inicio de sesión exitoso. Redirigiendo a la página de inicio...",
     "validate": {
       "name": "Nombre obligatorio",
@@ -29,15 +29,15 @@
     "label": { "username": "Nombre de usuario:", "password": "Contraseña:" }
   },
   "home": {
-    "title": "¡Buena suerte con el examen!",
-    "description": ""
+    "title": "Bienvenido!",
+    "description": "Cursos le permite ver como profesor todos los cursos que está impartiendo y como alumno todos los cursos en los que está matriculado. También puede ver cuándo están programados los cursos y los alumnos matriculados en cada curso."
   },
+
   "classroom": {
     "title": "Agregar Aula",
     "form": {
       "name": "Nombre del Aula",
       "submit": "Agregar Aula",
-      "submitting": "Agregando...",
       "validation": {
         "nameRequired": "El nombre del aula es obligatorio"
       },
@@ -48,10 +48,8 @@
       }
     }
   },
+
   "errors": {
     "unauthorized": "Acceso denegado. Se requieren privilegios de administrador."
-  },
-  "general": {
-    "loading": "Cargando..."
   }
 }

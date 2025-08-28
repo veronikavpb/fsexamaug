@@ -5,8 +5,9 @@
     "welcome": "Welcome",
     "nav": {
       "home": "Home",
+      "classrooms": "Classrooms",
       "teachers": "Teachers",
-      "add-classroom": "Add Classroom",
+      "add-teacher": "Add Teacher",
       "login": "Login",
       "logout": "Logout"
     }

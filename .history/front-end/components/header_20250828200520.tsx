@@ -69,16 +69,6 @@ const Header: React.FC = () => {
             {t("header.nav.logout")}
           </a>
         )}
-
-        <select
-          value={router.locale}
-          onChange={(e) => changeLanguage(e.target.value)}
-          className="px-2 py-1 ml-4 text-black rounded-lg bg-white"
-        >
-          <option value="en">English</option>
-          <option value="es">Español</option>
-        </select>
-
         {loggedInUser && (
           <div className="text-white ms-5 mt-2 md:mt-0 pt-1 md:pt-0 grow">
             {t("header.welcome")}, {loggedInUser.fullname}!

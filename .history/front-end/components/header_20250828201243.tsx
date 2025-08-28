@@ -76,7 +76,7 @@ const Header: React.FC = () => {
           className="px-2 py-1 ml-4 text-black rounded-lg bg-white"
         >
           <option value="en">English</option>
-          <option value="es">Español</option>
+          <option value="nl">Nederlands</option>
         </select>
 
         {loggedInUser && (
